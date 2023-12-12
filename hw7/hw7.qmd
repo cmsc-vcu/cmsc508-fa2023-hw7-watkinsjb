@@ -93,7 +93,7 @@ except Exception as e:
 
 ## Overview and description
 
-(briefly describe the project and the database)
+This is he implementation of a resume database using Python, SQL, and the SQLAlchemy library. It establishes a connection to a MySQL database, performs basic tests, and includes a Crows-foot diagram illustrating the relationships between the CUSTOMER, ORDER, and DELIVERY-ADDRESS entities. The code and detailed explanations can be found in the GitHub repository here.
 
 ## Crows-foot diagram
 
@@ -110,12 +110,15 @@ erDiagram
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
     CUSTOMER{
+
         int id
         string first_name
         string last_name
+
     }
     DELIVERY-ADDRESS {
         int id
+
     }
 ```
 

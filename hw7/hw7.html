@@ -3393,7 +3393,7 @@ Missing HW7_DB_NAME in .env file</code></pre>
 </div>
 <section id="overview-and-description" class="level2">
 <h2 class="anchored" data-anchor-id="overview-and-description">Overview and description</h2>
-<p>(briefly describe the project and the database)</p>
+<p>This is he implementation of a resume database using Python, SQL, and the SQLAlchemy library. It establishes a connection to a MySQL database, performs basic tests, and includes a Crows-foot diagram illustrating the relationships between the CUSTOMER, ORDER, and DELIVERY-ADDRESS entities. The code and detailed explanations can be found in the GitHub repository here.</p>
 </section>
 <section id="crows-foot-diagram" class="level2">
 <h2 class="anchored" data-anchor-id="crows-foot-diagram">Crows-foot diagram</h2>
@@ -3410,12 +3410,15 @@ Missing HW7_DB_NAME in .env file</code></pre>
     CUSTOMER ||--o{ ORDER : places
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
     CUSTOMER{
+
         int id
         string first_name
         string last_name
+
     }
     DELIVERY-ADDRESS {
         int id
+
     }
 </pre>
 </div>
