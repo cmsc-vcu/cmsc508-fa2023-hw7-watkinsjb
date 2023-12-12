@@ -397,5 +397,5 @@ df
 
 ## Reflection
 
-I enjoyed this assignment because it gave a practical view of applications of relationship database theory, connecting theoretical concepts with real-world data challenges. It helped me develop an understanding of why adherence to database principles is important, it makes the development of the database easier to do and understand. 
+I enjoyed this assignment because it gave a practical view of applications of relationship database theory, connecting theoretical concepts with real-world data challenges. It helped me develop an understanding of why adherence to database principles is important, it makes the development of the database easier to do and understand.
 
